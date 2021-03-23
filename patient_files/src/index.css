@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Cuprum&display=swap");
+* {
+  font-family: "Cuprum", sans-serif;
+}
+
+.doc_cards {
+  padding:2%;
+  border-style: groove;
+  border-radius: 15px 30px 15px;
+  box-shadow: 0px 0px 15px currentcolor;
+  flex-direction: row;
+}
+
+.doc_cards h2{
+  font-size: 45px;
+  text-shadow: 2px 2px 5px rgb(8, 223, 151);
+}
+.doc_cards h3{
+  font-size: 30px;
+}
+.doc_cards h4{
+  font-size: 20px;
+}
+
+.doc_button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 30px;
+  padding: 5px;
+  width: 180px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.doc_button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.doc_button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.doc_button:hover span {
+  padding-right: 25px;
+}
+
+.doc_button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.contact_input{
+  width: 300px;
+  height: 35px;
+  font-size: 30px;
+}
+.contact_button{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #940cee;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 30px;
+  padding: 5px;
+  width: 180px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+.schedule_box{
+  padding:2%;
+  border-style: groove;
+  border-radius: 15px 30px 15px;
+  box-shadow: 0px 0px 15px currentcolor;
+  flex-direction: row;
+}
+.schedule_box h2{
+  font-size: 45px;
+  text-shadow: 2px 2px 5px rgb(8, 223, 151);
+}
+.schedule_box h3{
+  font-size: 30px;
+}
+.schedule_box h4{
+  font-size: 20px;
+}
+
+.mainMenu {
+  width: 100%;
+  line-height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: #1d6ce2;
+  color: #f1147b;
+  font-size: 30px;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.mainMenu a {
+  color: #092532;
+  font-size: 2rem;
+}
+
+
+a.active_class {
+  color: #feceab;
+  font-size: 3rem;
+}
+
+
