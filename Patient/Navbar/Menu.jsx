@@ -21,6 +21,7 @@ const Menu = () => {
             <NavLink exact activeClassName = "active_class" to="/Contact">
                 Contact
             </NavLink>
+        {/*Need to change how Signout redirects*/}
             <NavLink exact activeClassName = "active_class" to="/SignIn">
             SignOut
             </NavLink>
